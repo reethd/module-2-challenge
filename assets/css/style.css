@@ -1,1 +1,138 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #681111;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid white;
+    width:90%;
+    background-color: rgb(255, 202, 133);
+    color: #681111;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid white;
+    width: 90%;
+    background-color: rgb(255, 202, 133);
+    color:#681111
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    }
+
+.nav ul li {
+    display: flex;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid white;
+    width: 90%;
+    background-color: rgb(255, 202, 133);
+    color:#681111;
+}
+
+.about-section p {
+    display: flex;
+    align-content: center;
+}
+
+.portfolio-section {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid white;
+    width: 90%;
+    background-color: rgb(255, 202, 133);
+    color:#681111;
+}
+
+.portfolio-section h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.examples {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.first-example {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #681111;
+    margin: 20px;
+    padding: 10px
+
+}
+
+.other-examples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px
+ }
+
+ .other-examples img {
+    display: flex;
+    border: 2px solid #681111;
+    margin: 20px;
+    padding: 10px;
+ }
+
+ .footer {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid white;
+    width: 90%;
+    background-color: rgb(255, 202, 133);
+    color:#681111
+ }
+
+ .footer ul {
+    display: flex;
+    flex-direction: row;
+ }
+
+ .footer ul li {
+    display: flex;
+    padding-left:30px;
+    padding-right:30px;
+ }
